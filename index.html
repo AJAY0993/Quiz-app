@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Blank Template</title>
+
+	<!-- external ICONS link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="hero">
+			<img src="https://blog.boot.dev/img/800/HTML-vs-CSS-vs-JavaScript-min.webp" alt="">
+		</div>
+	</header>
+	<main>
+		<ul class="quiz__list">
+
+			<li class="">
+				<a href="htmlquiz.html" class="quiz--list-item">
+					<i class="fa-brands fa-html5 li-icon"></i>
+					<div class="li--text">
+						<h3>HTML</h3>
+						<p>HTML is the standard markup language for Web pages</p>
+					</div>
+				</a>
+			</li>
+			<li class="quiz--list-item">
+				<i class="fa-brands fa-css3 li-icon"></i>
+				<div class="li--text">
+					<h3>CSS</h3>
+					<p>CSS is the language we use to style an HTML document.</p>
+				</div>
+			</li>
+			<li class="quiz--list-item">
+				<i class="fa-brands fa-js li-icon"></i>
+				<div class="li--text">
+					<h3>JAVASCRIPT</h3>
+					<p>JavaScript often abbreviated as JS, is a programming language that is one of the core
+						technologies of the World Wide Web, alongside HTML and CSS.</p>
+				</div>
+			</li>
+		</ul>
+	</main>
+	<script>
+
+		const li = document.querySelectorAll('li')
+		li.forEach((x, i) => {
+			x.i = i
+			x.addEventListener('click', () => {
+				if (i > 0) alert('coming soon....')
+			})
+		})
+	</script>
+</body>
+
+</html>
