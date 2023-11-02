@@ -13,7 +13,12 @@ export const data = {
     },
     {
       "question": "Which HTML element is used to define the structure of an HTML document?",
-      "choices": ["<body>", "<head>", "<html>", "<structure>"],
+      "choices": [
+        "<body>",
+        "<head>",
+        "<html>",
+        "<structure>"
+      ],
       "correct": 2
     },
     {
@@ -28,23 +33,53 @@ export const data = {
     },
     {
       "question": "Which HTML element defines the title of a document?",
-      "choices": ["<head>", "<title>", "<header>", "<h1>"],
+      "choices": [
+        "<head>",
+        "<title>",
+        "<header>",
+        "<h1>"
+      ],
       "correct": 1
     },
     {
       "question": "Which tag is used to create an ordered list in HTML?",
-      "choices": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "choices": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
       "correct": 1
     },
     {
-      "question": "Which HTML element is used to specify a header for a document or a section?",
-      "choices": ["<section>", "<header>", "<article>", "<head>"],
-      "correct": 1
-    },
-    {
-      "question": "Which tag is used to create an unordered list in HTML?",
-      "choices": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "question": "Which HTML element is used to specify a paragraph of text?",
+      "choices": [
+        "<p>",
+        "<text>",
+        "<para>",
+        "<pg>"
+      ],
       "correct": 0
+    },
+    {
+      "question": "What is the correct HTML for creating a line break?",
+      "choices": [
+        "<br>",
+        "<lb>",
+        "<linebreak>",
+        "<newline>"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which HTML element is used to define a list item in an ordered list?",
+      "choices": [
+        "<listitem>",
+        "<li>",
+        "<order>",
+        "<item>"
+      ],
+      "correct": 1
     },
     {
       "question": "What does CSS stand for?",
@@ -58,7 +93,12 @@ export const data = {
     },
     {
       "question": "Which HTML tag is used to create a hyperlink in a web page?",
-      "choices": ["<hyperlink>", "<a>", "<link>", "<url>"],
+      "choices": [
+        "<hyperlink>",
+        "<a>",
+        "<link>",
+        "<url>"
+      ],
       "correct": 1
     },
     {
@@ -73,7 +113,12 @@ export const data = {
     },
     {
       "question": "Which HTML element defines the structure of an HTML document?",
-      "choices": ["<body>", "<head>", "<html>", "<structure>"],
+      "choices": [
+        "<body>",
+        "<head>",
+        "<html>",
+        "<structure>"
+      ],
       "correct": 2
     },
     {
@@ -88,22 +133,42 @@ export const data = {
     },
     {
       "question": "Which HTML element defines the title of a document?",
-      "choices": ["<head>", "<title>", "<header>", "<h1>"],
+      "choices": [
+        "<head>",
+        "<title>",
+        "<header>",
+        "<h1>"
+      ],
       "correct": 1
     },
     {
       "question": "Which tag is used to create an ordered list in HTML?",
-      "choices": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "choices": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
       "correct": 1
     },
     {
       "question": "Which HTML element is used to specify a header for a document or a section?",
-      "choices": ["<section>", "<header>", "<article>", "<head>"],
+      "choices": [
+        "<section>",
+        "<header>",
+        "<article>",
+        "<head>"
+      ],
       "correct": 1
     },
     {
       "question": "Which tag is used to create an unordered list in HTML?",
-      "choices": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "choices": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
       "correct": 0
     },
     {
@@ -118,7 +183,12 @@ export const data = {
     },
     {
       "question": "Which HTML tag is used to create a hyperlink in a web page?",
-      "choices": ["<hyperlink>", "<a>", "<link>", "<url>"],
+      "choices": [
+        "<hyperlink>",
+        "<a>",
+        "<link>",
+        "<url>"
+      ],
       "correct": 1
     },
     {
@@ -130,8 +200,36 @@ export const data = {
         "<img alt='MyImage'>"
       ],
       "correct": 0
+    },
+    {
+      "question": "Which HTML element is used to specify a division or a section in an HTML document?",
+      "choices": [
+        "<div>",
+        "<section>",
+        "<block>",
+        "<area>"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What does the acronym HTML represent?",
+      "choices": [
+        "Hyper Transfer Markup Language",
+        "Hyper Text Makeup Language",
+        "Hyper Text Markup Language",
+        "Highly Technical Modern Language"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which tag is used to create a horizontal rule in HTML?",
+      "choices": [
+        "<line>",
+        "<rule>",
+        "<hr>",
+        "<divider>"
+      ],
+      "correct": 2
     }
   ]
 }
-
-

@@ -2,7 +2,7 @@ import { data } from './htmlQuizData.js'
 console.log(data)
 
 const main = document.querySelector('main')
-
+console.log(data.questions.length)
 data.questions.forEach((question, i) => {
     const div = document.createElement('div')
     main.appendChild(div)
@@ -38,6 +38,7 @@ choices.forEach((c, i) => {
 })
 
 const nextBtn = document.querySelector('#next')
+const submitBtn = document.querySelector('#submit')
 const questions = document.querySelectorAll('.quiz')
 let currentI = 0;
 let score = 0
@@ -50,7 +51,15 @@ nextBtn.addEventListener('click', () => {
         questions[currentI].classList.toggle('hidden')
         currentI++
         questions[currentI].classList.toggle('hidden')
-        if (myChoice == data.questions[currentI - 1].correct) score++
-        alert(` your score is ${score} the correct option was ${data.questions[currentI - 1].correct + 1}`)
+        if (myChoice == data.questions[currentI - 1].correct) {
+            alert(`you selected the right one your score is ${score}`)
+        }
+        alert(`your score is ${score} the correct option was ${data.questions[currentI - 1].correct + 1}`)
     }
+})
+
+submitBtn.addEventListener('click', () => {
+    main.innerText = `YOUR FINAL SCORE ${score} IS OUT OF ${data.questions.length}`
+    document.querySelector('.controls').innerHTML = `<a href=""> TAKE THE QUIZ AGAIN </a>`
+
 })
