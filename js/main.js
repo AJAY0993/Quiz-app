@@ -52,9 +52,12 @@ nextBtn.addEventListener('click', () => {
         currentI++
         questions[currentI].classList.toggle('hidden')
         if (myChoice == data.questions[currentI - 1].correct) {
+            score++
             alert(`you selected the right one your score is ${score}`)
         }
-        alert(`your score is ${score} the correct option was ${data.questions[currentI - 1].correct + 1}`)
+        else {
+            alert(`your score is ${score} the correct option was ${data.questions[currentI - 1].correct + 1}`)
+        }
     }
 })
 
